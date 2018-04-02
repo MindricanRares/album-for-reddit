@@ -1,0 +1,141 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+
+h3 {
+  background: blue;
+  color: #fff;
+  font-size: 36px;
+  line-height: 100px;
+  margin: 10px;
+  padding: 2%;
+  position: relative;
+  text-align: center;
+}
+.variable-width .slick-slide p {
+  background: blue;
+  height: 100px;
+  color: #fff;
+  margin: 5px;
+  line-height: 100px;
+  text-align: center;
+}
+.center .slick-center h3 {
+  color: #e67e22;
+  opacity: 1;
+  transform: scale(1.08);
+}
+.center h3 {
+  opacity: 0.8;
+  transition: all 300ms ease;
+}
+.content {
+  padding: 20px;
+  margin: auto;
+  width: 90%;
+}
+.slick-slide .image {
+  padding: 10px;
+}
+.slick-slide img {
+  border: 5px solid #fff;
+  display: block;
+  margin: auto;
+}
+.slick-slide img.slick-loading {
+  border: 0;
+}
+.slick-slider {
+  margin: 30px auto 50px;
+}
+.slick-dots {
+  margin-left: 0;
+}
+.slick-thumb {
+  bottom: -45px;
+}
+.slick-thumb li {
+  width: 60px;
+  height: 45px;
+}
+.slick-thumb li img {
+  filter: grayscale(100%);
+}
+.slick-thumb li.slick-active img {
+  filter: grayscale(0%);
+}
+@media (max-width: 768px) {
+  h3 {
+    font-size: 24px;
+  }
+  .center {
+    margin-left: -40px;
+    margin-right: -40px;
+  }
+  .center .slick-center h3 {
+    color: #e67e22;
+    opacity: 1;
+    transform: scale(1);
+  }
+  .center h3 {
+    opacity: 0.8;
+    transform: scale(0.95);
+    transition: all 300ms ease;
+  }
+}
+.slick-vertical .slick-slide {
+  height: 180px;
+}
+.slick-arrow {
+  background-color: grey;
+  /* color: black; */
+}
+.slick-arrow:hover {
+  background-color: grey;
+}
+/* .slick-prev {
+  z-index: 100;
+  left: 20px !important;
+}
+.slick-next {
+  z-index: 100;
+  right: 20px !important;
+} */
+
+.slider-image{
+  min-width: 1240px;
+  min-height: 1240px;
+  max-width: 1240px;
+  max-width: 1240px;
+}
+
+.slider-button{
+  width: 10%;
+  margin: 0 auto;
+}
